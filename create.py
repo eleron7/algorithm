@@ -3,7 +3,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-commentsByType = {"py": "#", "sql": "--", "java": "//", "c": "//"}# 언어 별 주석
+commentsByType = {"py": "#", "sql": "--"}# 언어 별 주석
 
 lv = input("lv을 입력해 주세요. :")
 url = input("url을 입력해 주세요. :")
