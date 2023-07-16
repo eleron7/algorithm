@@ -17,7 +17,7 @@ def solution(today, terms, privacies):
         month = int(month)
         day = int(day)
 
-        if (month + termsSet[term]) > 12:#현재 월 + 유효기간이 12 넘는 경우
+        if (month + termsSet[term]) > 12:#현재 월 + 유효기간이 12 넘는 경우
             if (month + termsSet[term]) % 12 == 0:#나누어 떨어지는 경우
                 year += (((month + termsSet[term])//12) - 1)#마지막으로 나누어지는 월은 남겨야하기 때문에 - 1
                 month = 12#마지막으로 나누어지는 월을 실제 월로 표시
